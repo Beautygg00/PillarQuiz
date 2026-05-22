@@ -5,7 +5,7 @@ type Props = {
 export function PillarLogo({ className }: Props) {
   return (
     <img
-      src="/PillarLogo.png"
+      src={`${import.meta.env.BASE_URL}PillarLogo.png`}
       alt="Pillar"
       className={className}
       draggable={false}
